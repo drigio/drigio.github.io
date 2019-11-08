@@ -1,0 +1,60 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+.heading {
+    font-weight: 300;
+    color: #34407a !important;
+    font-size: 3.5rem;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+}
+
+.nav-center {
+    margin: 2px auto;
+    line-height: 1.4;
+    padding-left: 0;
+}
+
+.nav-center li {
+    display: inline;
+    text-align: center;
+}
+
+.navbar {
+    border-radius: 20px 0px 20px 0px;
+    margin-bottom: 1%;
+}
+
+.badge {
+    font-size: 100%;
+    font-weight: 300;
+    background-color: #EEEEEE;
+}
+
+.nav-link {
+    color: rgb(66,66,66,0.8) !important;
+}
+
+/* For Smaller Screens */
+@media screen and (max-width: 992px) {
+    .heading {
+        font-size: 3.0rem;
+        font-weight: 500;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+}
